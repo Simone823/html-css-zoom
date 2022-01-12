@@ -59,11 +59,13 @@ footer{
     /* border: 5px solid red; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
+    margin-left: 10px;
 }
 
 .devices ul{
@@ -74,6 +76,7 @@ footer{
 .devices ul li{
     list-style: none;
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .devices ul li i{
@@ -83,5 +86,41 @@ footer{
 }
 
 .devices ul .arrow-up i{
+    font-size: 12px;
+}
+
+.buttons-footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons-footer ul li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buttons-footer ul li i{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.close-button{
+    width: 120px;
+    height: 84px;
+    background-color: #4a4a4a;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.close-button a{
+    text-decoration: none;
+    color: red;
+}
+
+.buttons-footer ul .arrow-up i{
     font-size: 12px;
 }
